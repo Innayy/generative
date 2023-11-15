@@ -22,7 +22,7 @@ To run the application using Docker, follow these steps:
    ```
    Replace `<repository_directory>` with the directory path where the repository is cloned.
 
-3. Change test.env file to .env and update API_KEY and OPENAI_API_KEY in env file.
+3. Change env.test file to .env and update API_KEY and OPENAI_API_KEY in env file.
 
 4. Build the Docker image for the application. Run the following command:
    ```

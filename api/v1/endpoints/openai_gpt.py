@@ -150,8 +150,8 @@ async def bulk_test():
     for idx, resp in enumerate(response):
         feedbacks = []
         feedbacks.append(resp["generalFeedback"]["function"].feedback[0])
-        feedbacks.append(resp["peelFeedback"]["function"].feedback[0])
         feedbacks.append(resp["generalFeedback"]["function"].feedback[1])
+        feedbacks.append(resp["peelFeedback"]["function"].feedback[0])
 
         total += 1
         peel_struction_valid = True
